@@ -1,0 +1,25 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore SQLite database and other local data
+*.db
+*.sqlite3
+
+# Ignore FAISS index files (generated)
+faiss_index/
+uploads/
+
+# Ignore dotenv (API keys/secrets)
+.env
+
+# Ignore VSCode settings (if using VSCode)
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
